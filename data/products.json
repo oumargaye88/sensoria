@@ -1,0 +1,295 @@
+{
+  "parfums": [
+    {
+      "slug": "fleur-oranger-edp",
+      "category": "parfum",
+      "categoryLabel": "Eau de Parfum",
+      "name": "Fleur d'Oranger",
+      "en": "Orange Blossom",
+      "family": "Floral frais",
+      "price": 12500,
+      "size": "50 ml",
+      "wear": "De jour, en toute saison",
+      "desc": "Néroli et zeste d'orange amère à l'ouverture, francs et un peu verts. Le cœur s'adoucit en fleur blanche, le fond reste clair, légèrement musqué.",
+      "img": "assets/parfum-fleur-oranger.png"
+    },
+    {
+      "slug": "musc-blanc-edp",
+      "category": "parfum",
+      "categoryLabel": "Eau de Parfum",
+      "name": "Musc Blanc",
+      "en": "White Musk",
+      "family": "Musc poudré",
+      "price": 12500,
+      "size": "50 ml",
+      "wear": "Au quotidien, en superposition",
+      "desc": "Un musc poudré, propre, sans sucre, posé sur un fond de bois blanc. Il se porte près de la peau et se remarque de près, encore présent sur le linge le soir.",
+      "img": "assets/parfum-musc-blanc.png"
+    },
+    {
+      "slug": "shahad-edp",
+      "category": "parfum",
+      "categoryLabel": "Eau de Parfum",
+      "name": "Shahad",
+      "en": "Honey & Yellow Flowers",
+      "family": "Floral gourmand",
+      "price": 12500,
+      "size": "50 ml",
+      "wear": "Par temps frais, en fin de journée",
+      "desc": "Un accord gourmand tenu par une note de cire d'abeille. Rien d'écœurant : la douceur est ronde, chaude, et se prolonge en un fond ambré qui reste longtemps sur la peau.",
+      "img": "assets/parfum-shahad.png"
+    },
+    {
+      "slug": "oud-hijaz-edp",
+      "category": "parfum",
+      "categoryLabel": "Eau de Parfum",
+      "name": "Oud Hijaz",
+      "en": "Oud & Amber",
+      "family": "Boisé ambré",
+      "price": 12500,
+      "size": "50 ml",
+      "wear": "Taillée pour les tenues habillées",
+      "desc": "Oud, ambre et bois sec, avec une pointe d'épice à l'ouverture. Deux vaporisations suffisent : le sillage tient jusqu'au bout de la soirée.",
+      "img": "assets/parfum-oud-hijaz.png"
+    },
+    {
+      "slug": "lumiere-marrakech-edp",
+      "category": "parfum",
+      "categoryLabel": "Eau de Parfum",
+      "name": "Lumière de Marrakech",
+      "en": "Spices & Candied Citrus",
+      "family": "Épicé solaire",
+      "price": 12500,
+      "size": "50 ml",
+      "wear": "Du jour au soir",
+      "desc": "Épices claires et agrumes confits à l'ouverture, résines et baume en fond. Lumineux d'abord, plus dense à mesure qu'il sèche sur la peau.",
+      "img": "assets/parfum-lumiere-marrakech.png"
+    },
+    {
+      "slug": "saladin-edp",
+      "category": "parfum",
+      "categoryLabel": "Eau de Parfum",
+      "name": "Saladin",
+      "en": "Aromatic & Cedar",
+      "family": "Aromatique boisé",
+      "price": 12500,
+      "size": "50 ml",
+      "wear": "Au bureau comme en voyage",
+      "desc": "Fraîcheur aromatique, cèdre et un fond minéral presque sec. Le plus masculin des six, mais il se porte des deux côtés : au bureau comme en voyage.",
+      "img": "assets/parfum-saladin.png"
+    }
+  ],
+
+  "huiles": [
+    {
+      "slug": "fleur-orientale-huile",
+      "category": "huile",
+      "categoryLabel": "Huile Précieuse",
+      "name": "Fleur Orientale",
+      "en": "Oriental Blossom",
+      "price": 15000,
+      "size": "50 ml",
+      "desc": "Bouquet ambré et floral, le plus habillé de la gamme. La texture reste légère : elle pénètre vite et laisse un voile satiné sans film gras.",
+      "conseil": "Sur le corps après la douche, ou sur les pointes pour discipliner les cheveux secs.",
+      "img": "assets/huile-fleur-orientale.png"
+    },
+    {
+      "slug": "fleur-oranger-huile",
+      "category": "huile",
+      "categoryLabel": "Huile Précieuse",
+      "name": "Fleur d'Oranger",
+      "en": "Orange Blossom",
+      "price": 15000,
+      "size": "50 ml — existe aussi en 100 ml",
+      "desc": "Néroli frais et lumineux, le classique de la maison. Existe aussi en grand format de 100 ml pour un usage quotidien.",
+      "conseil": "Deux pressions dans la paume, à masser sur peau encore tiède après le bain : la senteur dure plus longtemps.",
+      "img": "assets/huile-fleur-oranger.png"
+    },
+    {
+      "slug": "jasmin-huile",
+      "category": "huile",
+      "categoryLabel": "Huile Précieuse",
+      "name": "Jasmin",
+      "en": "Jasmine",
+      "price": 15000,
+      "size": "50 ml",
+      "desc": "Jasmin de nuit, floral franc et enveloppant — le plus parfumé des six. À doser légèrement.",
+      "conseil": "Le soir sur les avant-bras et la nuque, ou en soin des pointes avant le shampooing.",
+      "img": "assets/huile-jasmin.png"
+    },
+    {
+      "slug": "musc-huile",
+      "category": "huile",
+      "categoryLabel": "Huile Précieuse",
+      "name": "Musc",
+      "en": "Musk",
+      "price": 15000,
+      "size": "50 ml",
+      "desc": "Musc doux et poudré, le plus neutre des six, qui reste longtemps sur la peau.",
+      "conseil": "Elle se superpose sans heurt à une eau de parfum, et convient aux peaux qui supportent mal les floraux marqués.",
+      "img": "assets/huile-musc.png"
+    },
+    {
+      "slug": "orchidee-huile",
+      "category": "huile",
+      "categoryLabel": "Huile Précieuse",
+      "name": "Orchidée",
+      "en": "Orchid",
+      "price": 15000,
+      "size": "50 ml",
+      "desc": "Floral velouté, avec un fond doux qui rappelle la vanille sans sucre — une huile de fin de journée.",
+      "conseil": "À masser sur les jambes et les bras après le bain, quand la peau tire.",
+      "img": "assets/huile-orchidee.png"
+    },
+    {
+      "slug": "the-vert-huile",
+      "category": "huile",
+      "categoryLabel": "Huile Précieuse",
+      "name": "Thé Vert",
+      "en": "Green Tea",
+      "price": 15000,
+      "size": "50 ml",
+      "desc": "Thé à la menthe, vert et désaltérant — la plus fraîche de la gamme. Sa senteur courte en fait l'huile de journée, y compris par forte chaleur, et elle se rince facilement des cheveux.",
+      "conseil": "",
+      "img": "assets/huile-the-vert.png"
+    }
+  ],
+
+  "grandFormat": {
+    "slug": "fleur-oranger-huile-100ml",
+    "category": "huile",
+    "categoryLabel": "Huile Précieuse · Grand Format",
+    "name": "Huile Précieuse Fleur d'Oranger — 100 ml",
+    "en": "Orange Blossom · Corps & Cheveux",
+    "size": "100 ml",
+    "priceOnRequest": true,
+    "desc": "Trois huiles nourrissantes dans une texture volontairement légère : elle pénètre sans film gras et laisse une finition satinée. Le grand format du soin corps et cheveux, pour un usage quotidien.",
+    "composition": ["Huile d'argan bio", "Huile de figue de barbarie", "Huile d'amande douce", "Enrichie en vitamine E"],
+    "img": "assets/huile-grand-format.png"
+  },
+
+  "bruler": [
+    { "slug": "orientale-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Orientale", "family": "Ambré · Cuir or", "price": 11000, "desc": "La plus ronde des dix : un ambré chaud qui tient longtemps dans une pièce fermée.", "img": "assets/bruler-orientale.png" },
+    { "slug": "bakhour-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Bakhour", "family": "Encens · Cuir argent", "price": 12000, "desc": "L'encens du soir, à brûler avant de recevoir. Quelques gouttes suffisent.", "img": "assets/bruler-bakhour.png" },
+    { "slug": "marrakchi-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Marrakchi", "family": "Épicé · Cuir cuivre", "price": 14000, "desc": "Épices et résines, la senteur la plus caractérisée de la série.", "img": "assets/bruler-marrakchi.png" },
+    { "slug": "ambre-musc-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Ambre Musc", "family": "Ambré musqué · Cuir rouge", "price": 12000, "desc": "Ambre et musc, une senteur douce et enveloppante pour les pièces à vivre.", "img": "assets/bruler-ambre-musc.png" },
+    { "slug": "dattes-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Dattes", "family": "Gourmand · Cuir sable", "price": 14000, "desc": "Une senteur de fruit sec et de sucre brun, à brûler avant le thé.", "img": "assets/bruler-dattes.png" },
+    { "slug": "jasmin-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Jasmin", "family": "Floral · Cuir rose", "price": 10000, "desc": "Le floral de la série : ample, facile, à brûler en journée.", "img": "assets/bruler-jasmin.png" },
+    { "slug": "fleur-oranger-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Fleur d'Oranger", "family": "Floral · Cuir orange", "price": 10000, "desc": "Néroli clair, la senteur la plus douce de la série. Celle qui convient aux pièces où l'on passe la journée.", "img": "assets/bruler-fleur-oranger.png" },
+    { "slug": "verveine-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Verveine", "family": "Frais · Cuir vert", "price": 10000, "desc": "Verveine citronnée, vive et nette. La senteur du matin, à brûler dans une cuisine ou une entrée.", "img": "assets/bruler-verveine.png" },
+    { "slug": "eucalyptus-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Eucalyptus", "family": "Mentholé · Cuir ciel", "price": 10000, "desc": "Mentholé et dégageant. À brûler dans une chambre par temps froid, ou après le sport.", "img": "assets/bruler-eucalyptus.png" },
+    { "slug": "atlas-bruler", "category": "bruler", "categoryLabel": "Huile à Brûler", "size": "50 ml", "name": "Atlas", "family": "Boisé · Cuir bleu", "price": 14000, "desc": "Cèdre et bois de montagne. La senteur la plus sobre des dix, pour un bureau ou une bibliothèque.", "img": "assets/bruler-atlas.png" }
+  ],
+
+  "diffuseur": {
+    "slug": "diffuseur-terre-cuite",
+    "category": "diffuseur",
+    "categoryLabel": "Diffuseur · Terre Cuite",
+    "name": "Diffuseur en terre cuite",
+    "en": "Handmade white-clay oil burner",
+    "price": 8500,
+    "size": "Pièce unique",
+    "desc": "Façonné à la main en terre blanche cuite, puis émaillé un à un. Le motif géométrique est gravé avant cuisson : losanges, arcs et pointillés, différents sur chaque pièce. Quelques gouttes d'huile à brûler, bougie chauffe-plat dessous.",
+    "colors": [
+      { "name": "Bleu", "img": "assets/diffuseur-bleu.png" },
+      { "name": "Turquoise", "img": "assets/diffuseur-turquoise.png" },
+      { "name": "Rouge", "img": "assets/diffuseur-rouge.png" },
+      { "name": "Rose", "img": "assets/diffuseur-rose.png" },
+      { "name": "Blanc", "img": "assets/diffuseur-blanc.png" },
+      { "name": "Beige", "img": "assets/diffuseur-beige.png" },
+      { "name": "Bleu ciel", "img": "assets/diffuseur-ciel.png" }
+    ]
+  },
+
+  "hammam": [
+    {
+      "slug": "savon-noir-fleur-oranger",
+      "category": "hammam",
+      "categoryLabel": "Rituel Hammam · Étape 1",
+      "name": "Savon Noir — Fleur d'Oranger",
+      "en": "Black Soap · Orange Blossom",
+      "price": 8000,
+      "size": "250 g",
+      "desc": "Le premier geste du rituel. Le savon noir ramollit les peaux mortes : c'est lui qui rend le gommage au gant efficace.",
+      "conseil": "En couche fine sur peau humide, cinq à dix minutes dans la vapeur, puis rincer.",
+      "img": "assets/savon-fleur-oranger.png"
+    },
+    {
+      "slug": "savon-noir-eucalyptus",
+      "category": "hammam",
+      "categoryLabel": "Rituel Hammam · Étape 1",
+      "name": "Savon Noir — Eucalyptus",
+      "en": "Black Soap · Eucalyptus",
+      "price": 8000,
+      "size": "250 g",
+      "desc": "Même geste, senteur mentholée. L'eucalyptus dégage la respiration dans la vapeur : la version à choisir l'hiver, ou après le sport.",
+      "conseil": "Identique : peau humide, pose courte, rinçage à l'eau claire.",
+      "img": "assets/savon-eucalyptus.png"
+    },
+    {
+      "slug": "gommage-sucre",
+      "category": "hammam",
+      "categoryLabel": "Rituel Hammam · Étapes 2 & 3",
+      "name": "Gommage au Sucre",
+      "en": "Sugar Scrub · Miel & Fleur d'Oranger",
+      "price": 20000,
+      "size": "250 g",
+      "desc": "Grain moyen de sucre, lié au miel et parfumé à la fleur d'oranger. À masser en mouvements circulaires après le savon noir et le gant, puis à rincer à l'eau claire.",
+      "conseil": "Fréquence : une à deux fois par semaine. Résultat : peau lisse et souple, sans être décapée.",
+      "img": "assets/gommage-sucre.png"
+    },
+    {
+      "slug": "gant-gommage",
+      "category": "hammam",
+      "categoryLabel": "Rituel Hammam · Étape 2 · Accessoire",
+      "name": "Gant de Gommage",
+      "en": "Kessa Glove",
+      "price": 2500,
+      "size": "Taille unique",
+      "desc": "Kessa tissé, sur peau ramollie par le savon noir. Frotter par mouvements longs, sans appuyer ; rincer et faire sécher à plat.",
+      "conseil": "",
+      "img": "assets/gant-gommage.png"
+    },
+    {
+      "slug": "sel-bain-fleur-oranger",
+      "category": "hammam",
+      "categoryLabel": "Rituel Hammam · Bain & Toilette",
+      "name": "Sel de Bain — Fleur d'Oranger",
+      "en": "Bath Salts · Orange Blossom",
+      "price": 7500,
+      "size": "250 g",
+      "desc": "Gros sel parfumé, à dissoudre dans l'eau chaude du bain ou en bain de pieds. Une poignée suffit ; la senteur reste dans la salle de bain après le bain.",
+      "conseil": "",
+      "img": "assets/sel-bain.png"
+    },
+    {
+      "slug": "gel-nettoyant",
+      "category": "hammam",
+      "categoryLabel": "Rituel Hammam · Bain & Toilette",
+      "name": "Gel Nettoyant Corps & Mains",
+      "en": "Cleansing Gel · Body & Hands",
+      "price": 6000,
+      "size": "500 ml",
+      "desc": "Formule douce et rafraîchissante, en deux senteurs. Elle mousse peu et ne dessèche pas, ce qui la rend supportable plusieurs fois par jour sur les mains.",
+      "conseil": "",
+      "img": "assets/gel-nettoyant-the-vert.png",
+      "variants": [
+        { "name": "Thé Vert", "img": "assets/gel-nettoyant-the-vert.png" },
+        { "name": "Fleur d'Oranger", "img": "assets/gel-nettoyant-fleur-oranger.png" }
+      ]
+    },
+    {
+      "slug": "savons-parfumes",
+      "category": "hammam",
+      "categoryLabel": "Rituel Hammam · Bain & Toilette",
+      "name": "Savons Parfumés",
+      "en": "Rose-shaped soaps · trois coloris",
+      "price": 500,
+      "priceLabel": "500 — 1 500 F CFA",
+      "size": "À l'unité ou en coffret",
+      "desc": "Moulés à la main en forme de rose, en trois coloris. Savons de toilette pour le lavabo, ou à glisser dans le linge où ils parfument une étagère entière.",
+      "conseil": "",
+      "img": "assets/savons-roses.png"
+    }
+  ]
+}

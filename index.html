@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sensoria — Parfums & Rituels du Hammam</title>
+<meta name="description" content="Sensoria : eaux de parfum, huiles précieuses, huiles à brûler et rituel hammam inspirés du Maghreb. Commande directe par WhatsApp.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- decorative arabesque background pattern, fixed -->
+<div class="bg-pattern" aria-hidden="true"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <img src="assets/logo.png" alt="Sensoria" class="brand-logo">
+      <span class="brand-name">Sensoria</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="collections/eaux-de-parfum.html">Eaux de Parfum</a>
+      <a href="collections/huiles-precieuses.html">Huiles Précieuses</a>
+      <a href="collections/huiles-a-bruler.html">Huiles &amp; Diffuseurs</a>
+      <a href="collections/rituel-hammam.html">Rituel Hammam</a>
+      <a href="#quiz">Mon Rituel</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="cartToggle" aria-label="Ma sélection">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6 8h12l-1.2 10.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 8V6a3 3 0 0 1 6 0v2" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-banner">
+    <div class="hero-banner-glow" aria-hidden="true"></div>
+    <div class="hero-banner-text">
+      <p class="eyebrow">Sensoriarituals · Sénégal &amp; Maroc</p>
+      <h1>Le soin comme<br><em>rituel</em>.</h1>
+      <p class="hero-sub">Parfums, huiles précieuses, huiles à brûler et rituel hammam construits autour des matières familières du Maghreb — fleur d'oranger, jasmin, musc, oud, dattes.</p>
+      <div class="hero-cta">
+        <a href="#gammes" class="btn btn-primary">Découvrir la collection</a>
+        <a href="#quiz" class="btn btn-ghost-light">✨ Trouver mon parfum</a>
+      </div>
+      <div class="hero-stats hero-stats-light">
+        <div><strong>31</strong><span>références</span></div>
+        <div><strong>4</strong><span>gammes</span></div>
+        <div><strong>100%</strong><span>fait main</span></div>
+      </div>
+      <span class="hero-badge">✦ Livraison main à main · Dakar</span>
+    </div>
+    <div class="hero-banner-visual">
+      <div class="hero-cluster">
+        <div class="hc-badge hc-main"><img src="assets/parfum-fleur-oranger.png" alt="Sensoria Fleur d'Oranger"></div>
+        <div class="hc-badge hc-a"><img src="assets/huile-fleur-orientale.png" alt=""></div>
+        <div class="hc-badge hc-b"><img src="assets/bruler-marrakchi.png" alt=""></div>
+        <div class="hc-badge hc-c"><img src="assets/savon-fleur-oranger.png" alt=""></div>
+        <div class="hc-badge hc-d"><img src="assets/diffuseur-bleu.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STORY ============ -->
+<section class="story">
+  <div class="story-inner">
+    <div class="story-media">
+      <img src="assets/parfum-musc-blanc.png" class="story-img img-a" alt="Musc Blanc">
+      <img src="assets/huile-fleur-orientale.png" class="story-img img-b" alt="Huile précieuse">
+      <img src="assets/bruler-marrakchi.png" class="story-img img-c" alt="Huile à brûler">
+      <img src="assets/gommage-sucre.png" class="story-img img-d" alt="Gommage au sucre">
+    </div>
+    <div class="story-text">
+      <p class="eyebrow">L'univers Sensoriarituals</p>
+      <h2>Une formule courte,<br>un parfum qu'on reconnaît.</h2>
+      <p>Chaque gamme suit le même principe : un contenant simple, une senteur nette. Les flacons d'huile sont habillés de cuir découpé à la main, dans les couleurs de la collection.</p>
+      <ul class="story-list">
+        <li><span>01</span> Eaux de parfum — 6 sillages, flacon 50&nbsp;ml</li>
+        <li><span>02</span> Huiles précieuses — corps &amp; cheveux</li>
+        <li><span>03</span> Huiles à brûler — 10 senteurs, cuir ajouré</li>
+        <li><span>04</span> Rituel hammam — 4 gestes, dans l'ordre</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUIZ ============ -->
+<section class="quiz-section" id="quiz">
+  <div class="section-head center">
+    <p class="eyebrow">Ingénieux &amp; personnel</p>
+    <h2>Quel parfum vous ressemble ?</h2>
+    <p class="section-sub">Trois questions, une recommandation sur-mesure parmi nos six eaux de parfum.</p>
+  </div>
+
+  <div class="quiz-card" id="quizCard">
+    <div class="quiz-progress"><span id="quizProgressBar"></span></div>
+
+    <div class="quiz-step" data-step="1">
+      <h3>Quel moment de la journée vous ressemble le plus ?</h3>
+      <div class="quiz-options">
+        <button data-tags="oranger,saladin">☀️ Un matin ensoleillé, frais et léger</button>
+        <button data-tags="shahad">🍯 Une soirée douce entre amies</button>
+        <button data-tags="oud,marrakech">🌙 Une nuit habillée, intense</button>
+        <button data-tags="musc">🤍 Un jour ordinaire, discret</button>
+      </div>
+    </div>
+
+    <div class="quiz-step" data-step="2" hidden>
+      <h3>Quelle matière vous attire le plus ?</h3>
+      <div class="quiz-options">
+        <button data-tags="oranger,marrakech">🌸 Fleur d'oranger &amp; agrumes</button>
+        <button data-tags="shahad">🍯 Miel &amp; fleurs jaunes</button>
+        <button data-tags="musc,saladin">🤍 Musc &amp; bois blanc</button>
+        <button data-tags="oud,marrakech">🪵 Oud &amp; épices</button>
+      </div>
+    </div>
+
+    <div class="quiz-step" data-step="3" hidden>
+      <h3>Comment aimez-vous porter un parfum ?</h3>
+      <div class="quiz-options">
+        <button data-tags="oranger,musc">Léger, à renouveler dans la journée</button>
+        <button data-tags="oud">Un sillage qui tient toute la soirée</button>
+        <button data-tags="shahad">Une signature sucrée, reconnaissable</button>
+        <button data-tags="saladin,musc">Discret mais présent, en toute saison</button>
+      </div>
+    </div>
+
+    <div class="quiz-result" data-step="result" hidden>
+      <p class="eyebrow">Votre parfum</p>
+      <div class="quiz-result-inner">
+        <img id="quizResultImg" src="" alt="">
+        <div>
+          <h3 id="quizResultName"></h3>
+          <p id="quizResultDesc"></p>
+          <div class="quiz-result-actions">
+            <button class="btn btn-primary" id="quizAddCart">Ajouter à ma sélection</button>
+            <a class="btn btn-outline" id="quizResultLink" href="#">Voir la fiche produit</a>
+            <button class="btn btn-ghost" id="quizRestart">Refaire le test</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="application/json" id="quizData">[{"key": "oranger", "name": "Fleur d'Oranger", "family": "Floral frais", "desc": "Néroli et zeste d'orange amère à l'ouverture, francs et un peu verts. Le cœur s'adoucit en fleur blanche, le fond reste clair, légèrement musqué.", "price": 12500, "img": "assets/parfum-fleur-oranger.png", "url": "produits/fleur-oranger-edp.html"}, {"key": "musc", "name": "Musc Blanc", "family": "Musc poudré", "desc": "Un musc poudré, propre, sans sucre, posé sur un fond de bois blanc. Il se porte près de la peau et se remarque de près, encore présent sur le linge le soir.", "price": 12500, "img": "assets/parfum-musc-blanc.png", "url": "produits/musc-blanc-edp.html"}, {"key": "shahad", "name": "Shahad", "family": "Floral gourmand", "desc": "Un accord gourmand tenu par une note de cire d'abeille. Rien d'écœurant : la douceur est ronde, chaude, et se prolonge en un fond ambré qui reste longtemps sur la peau.", "price": 12500, "img": "assets/parfum-shahad.png", "url": "produits/shahad-edp.html"}, {"key": "oud", "name": "Oud Hijaz", "family": "Boisé ambré", "desc": "Oud, ambre et bois sec, avec une pointe d'épice à l'ouverture. Deux vaporisations suffisent : le sillage tient jusqu'au bout de la soirée.", "price": 12500, "img": "assets/parfum-oud-hijaz.png", "url": "produits/oud-hijaz-edp.html"}, {"key": "marrakech", "name": "Lumière de Marrakech", "family": "Épicé solaire", "desc": "Épices claires et agrumes confits à l'ouverture, résines et baume en fond. Lumineux d'abord, plus dense à mesure qu'il sèche sur la peau.", "price": 12500, "img": "assets/parfum-lumiere-marrakech.png", "url": "produits/lumiere-marrakech-edp.html"}, {"key": "saladin", "name": "Saladin", "family": "Aromatique boisé", "desc": "Fraîcheur aromatique, cèdre et un fond minéral presque sec. Le plus masculin des six, mais il se porte des deux côtés : au bureau comme en voyage.", "price": 12500, "img": "assets/parfum-saladin.png", "url": "produits/saladin-edp.html"}]</script>
+</section>
+
+<!-- ============ NOS GAMMES ============ -->
+<section class="gammes-section" id="gammes">
+  <div class="section-head">
+    <p class="eyebrow">Une collection pensée pour vous</p>
+    <h2>Nos quatre gammes</h2>
+    <p class="section-sub">Trente et une références, présentées en quatre univers. Cliquez sur une gamme pour découvrir toutes les senteurs, contenances et conseils d'utilisation.</p>
+  </div>
+  <div class="gammes-grid">
+    <a href="collections/eaux-de-parfum.html" class="gamme-card g-parfum reveal">
+  <div class="gamme-cluster"><img src="assets/parfum-fleur-oranger.png" style="height:130px;left:22%;top:20%;transform:rotate(-6deg)" alt=""><img src="assets/parfum-oud-hijaz.png" style="height:140px;left:52%;top:10%;transform:rotate(5deg);z-index:2" alt=""></div>
+  <div class="gamme-body">
+    <h3>Eaux de Parfum</h3>
+    <p>Six sillages, flacon carré 50 ml, bouchon coloré.</p>
+    <div class="gamme-meta">
+      <span class="gamme-count">6 références · 12 500 F CFA</span>
+      <span class="gamme-link">Découvrir →</span>
+    </div>
+  </div>
+</a>
+<a href="collections/huiles-precieuses.html" class="gamme-card g-huile reveal">
+  <div class="gamme-cluster"><img src="assets/huile-fleur-orientale.png" style="height:150px;left:26%;top:8%;transform:rotate(-5deg)" alt=""><img src="assets/huile-the-vert.png" style="height:150px;left:54%;top:14%;transform:rotate(5deg);z-index:2" alt=""></div>
+  <div class="gamme-body">
+    <h3>Huiles Précieuses</h3>
+    <p>Flacon cuir découpé à la main, pour corps et cheveux.</p>
+    <div class="gamme-meta">
+      <span class="gamme-count">6 références · 15 000 F CFA</span>
+      <span class="gamme-link">Découvrir →</span>
+    </div>
+  </div>
+</a>
+<a href="collections/huiles-a-bruler.html" class="gamme-card g-bruler reveal">
+  <div class="gamme-cluster"><img src="assets/bruler-marrakchi.png" style="height:130px;left:24%;top:18%;transform:rotate(-6deg)" alt=""><img src="assets/diffuseur-bleu.png" style="height:130px;left:54%;top:16%;transform:rotate(5deg);z-index:2" alt=""></div>
+  <div class="gamme-body">
+    <h3>Huiles &amp; Diffuseurs</h3>
+    <p>Dix senteurs à brûler, diffuseurs en terre cuite faits main.</p>
+    <div class="gamme-meta">
+      <span class="gamme-count">11 références · dès 8 500 F CFA</span>
+      <span class="gamme-link">Découvrir →</span>
+    </div>
+  </div>
+</a>
+<a href="collections/rituel-hammam.html" class="gamme-card g-hammam reveal">
+  <div class="gamme-cluster"><img src="assets/gommage-sucre.png" style="height:120px;left:22%;top:22%;transform:rotate(-5deg)" alt=""><img src="assets/savon-fleur-oranger.png" style="height:110px;left:54%;top:24%;transform:rotate(5deg);z-index:2" alt=""></div>
+  <div class="gamme-body">
+    <h3>Rituel Hammam</h3>
+    <p>Savon noir, gommage, sel de bain — quatre gestes, dans l'ordre.</p>
+    <div class="gamme-meta">
+      <span class="gamme-count">7 références · dès 2 500 F CFA</span>
+      <span class="gamme-link">Découvrir →</span>
+    </div>
+  </div>
+</a>
+  </div>
+</section>
+
+<!-- ============ SELECTION DU MOMENT ============ -->
+<section class="featured">
+  <div class="section-head">
+    <p class="eyebrow">Nos coups de cœur</p>
+    <h2>Sélection du moment</h2>
+    <p class="section-sub">Un produit de chaque gamme, pour découvrir l'esprit Sensoria avant d'explorer la collection complète.</p>
+  </div>
+  <div class="product-grid">
+    <div class="card reveal">
+  <button class="wish-btn" aria-label="Ajouter à ma sélection" data-wish data-name="Fleur d&#x27;Oranger — Eau de Parfum 50 ml" data-price="12500" data-price-label="" data-img="assets/parfum-fleur-oranger.png"><svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7.2-4.6-9.5-9.1C.8 7.6 2.4 4.5 5.6 4c2-.3 3.6.6 4.9 2.3.4.5.7.9 1.5.9s1.1-.4 1.5-.9C14.8 4.6 16.4 3.7 18.4 4c3.2.5 4.8 3.6 3.1 6.9C19.2 15.4 12 20 12 20Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></button>
+  <a href="produits/fleur-oranger-edp.html" class="card-link">
+    <div class="card-media"><img src="assets/parfum-fleur-oranger.png" alt="Sensoria Fleur d&#x27;Oranger" loading="lazy"></div>
+    <p class="card-fam">Floral frais</p>
+    <h3>Fleur d&#x27;Oranger</h3>
+    <p class="card-en">Orange Blossom</p>
+  </a>
+  <p class="desc">Néroli et zeste d&#x27;orange amère à l&#x27;ouverture, francs et un peu verts. Le cœur s&#x27;adoucit en fleur blanche, le fond reste clair, légèrement musqué.</p>
+  <div class="price-row">
+    <span class="price">12 500 F CFA</span>
+    <div class="card-actions">
+      <a class="btn btn-outline btn-sm" href="produits/fleur-oranger-edp.html">Voir</a>
+      <button class="btn btn-primary btn-sm" data-order data-name="Fleur d&#x27;Oranger — Eau de Parfum 50 ml" data-price="12500" data-price-label="">Commander</button>
+    </div>
+  </div>
+</div>
+<div class="card reveal">
+  <button class="wish-btn" aria-label="Ajouter à ma sélection" data-wish data-name="Huile Précieuse Fleur Orientale — 50 ml" data-price="15000" data-price-label="" data-img="assets/huile-fleur-orientale.png"><svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7.2-4.6-9.5-9.1C.8 7.6 2.4 4.5 5.6 4c2-.3 3.6.6 4.9 2.3.4.5.7.9 1.5.9s1.1-.4 1.5-.9C14.8 4.6 16.4 3.7 18.4 4c3.2.5 4.8 3.6 3.1 6.9C19.2 15.4 12 20 12 20Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></button>
+  <a href="produits/fleur-orientale-huile.html" class="card-link">
+    <div class="card-media"><img src="assets/huile-fleur-orientale.png" alt="Sensoria Fleur Orientale" loading="lazy"></div>
+    <p class="card-fam">Huile Précieuse</p>
+    <h3>Fleur Orientale</h3>
+    <p class="card-en">Oriental Blossom</p>
+  </a>
+  <p class="desc">Bouquet ambré et floral, le plus habillé de la gamme. La texture reste légère : elle pénètre vite et laisse un voile satiné sans film gras.</p>
+  <div class="price-row">
+    <span class="price">15 000 F CFA</span>
+    <div class="card-actions">
+      <a class="btn btn-outline btn-sm" href="produits/fleur-orientale-huile.html">Voir</a>
+      <button class="btn btn-primary btn-sm" data-order data-name="Huile Précieuse Fleur Orientale — 50 ml" data-price="15000" data-price-label="">Commander</button>
+    </div>
+  </div>
+</div>
+<div class="card reveal">
+  <button class="wish-btn" aria-label="Ajouter à ma sélection" data-wish data-name="Huile à Brûler Bakhour — 50 ml" data-price="12000" data-price-label="" data-img="assets/bruler-bakhour.png"><svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7.2-4.6-9.5-9.1C.8 7.6 2.4 4.5 5.6 4c2-.3 3.6.6 4.9 2.3.4.5.7.9 1.5.9s1.1-.4 1.5-.9C14.8 4.6 16.4 3.7 18.4 4c3.2.5 4.8 3.6 3.1 6.9C19.2 15.4 12 20 12 20Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></button>
+  <a href="produits/bakhour-bruler.html" class="card-link">
+    <div class="card-media"><img src="assets/bruler-bakhour.png" alt="Sensoria Bakhour" loading="lazy"></div>
+    <p class="card-fam">Encens · Cuir argent</p>
+    <h3>Bakhour</h3>
+    
+  </a>
+  <p class="desc">L&#x27;encens du soir, à brûler avant de recevoir. Quelques gouttes suffisent.</p>
+  <div class="price-row">
+    <span class="price">12 000 F CFA</span>
+    <div class="card-actions">
+      <a class="btn btn-outline btn-sm" href="produits/bakhour-bruler.html">Voir</a>
+      <button class="btn btn-primary btn-sm" data-order data-name="Huile à Brûler Bakhour — 50 ml" data-price="12000" data-price-label="">Commander</button>
+    </div>
+  </div>
+</div>
+<div class="card reveal">
+  <button class="wish-btn" aria-label="Ajouter à ma sélection" data-wish data-name="Gommage au Sucre" data-price="20000" data-price-label="" data-img="assets/gommage-sucre.png"><svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7.2-4.6-9.5-9.1C.8 7.6 2.4 4.5 5.6 4c2-.3 3.6.6 4.9 2.3.4.5.7.9 1.5.9s1.1-.4 1.5-.9C14.8 4.6 16.4 3.7 18.4 4c3.2.5 4.8 3.6 3.1 6.9C19.2 15.4 12 20 12 20Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></button>
+  <a href="produits/gommage-sucre.html" class="card-link">
+    <div class="card-media"><img src="assets/gommage-sucre.png" alt="Sensoria Gommage au Sucre" loading="lazy"></div>
+    <p class="card-fam">Étapes 2 &amp; 3</p>
+    <h3>Gommage au Sucre</h3>
+    <p class="card-en">Sugar Scrub · Miel &amp; Fleur d&#x27;Oranger</p>
+  </a>
+  <p class="desc">Grain moyen de sucre, lié au miel et parfumé à la fleur d&#x27;oranger. À masser en mouvements circulaires après le savon noir et le gant, puis à rincer à l&#x27;eau claire.</p>
+  <div class="price-row">
+    <span class="price">20 000 F CFA</span>
+    <div class="card-actions">
+      <a class="btn btn-outline btn-sm" href="produits/gommage-sucre.html">Voir</a>
+      <button class="btn btn-primary btn-sm" data-order data-name="Gommage au Sucre" data-price="20000" data-price-label="">Commander</button>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+
+<!-- ============ COFFRETS BANNER ============ -->
+<section class="cta-banner">
+  <div class="cta-banner-inner">
+    <div>
+      <h2>Coffrets &amp; assortiments sur demande</h2>
+      <p>Senteurs et contenances disponibles sur demande. Composez votre propre coffret cadeau — parfait pour une amie, une sœur, ou pour se faire plaisir.</p>
+    </div>
+    <a class="btn btn-light" href="https://wa.me/221781537491?text=Bonjour%20Sensoria%20%F0%9F%8C%B8%20je%20souhaite%20composer%20un%20coffret%20%2F%20assortiment%20sur-mesure.%20Pouvez-vous%20m%27aider%20%3F" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER / CONTACT ============ -->
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Sensoria">
+      <p>Sensoriarituals — le soin comme rituel.<br>Fragrances, precious oils, burning oils and hammam care.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Où nous trouver</h4>
+      <p>🇸🇳 Sénégal — Centre commercial Casino Sahm<br>Centre commercial Sea Plazza</p>
+      <p>🇲🇦 Également au Maroc — détails sur demande</p>
+      <p class="soon">Boutique en ligne : ouverture prochaine</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Commandes</h4>
+      <p><a href="https://wa.me/221781537491" target="_blank" rel="noopener" class="footer-link">WhatsApp · +221 78 153 74 91</a></p>
+      <p><a href="https://instagram.com/sensoriarituals" target="_blank" rel="noopener" class="footer-link">@Sensoriarituals</a></p>
+      <p class="muted">Instagram · TikTok · Snapchat · Facebook</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© Sensoria — Sensoriarituals. Tous droits réservés.</div>
+</footer>
+
+<!-- ============ FLOATING CART ============ -->
+<div class="cart-panel" id="cartPanel">
+  <div class="cart-panel-head">
+    <h3>Ma sélection</h3>
+    <button id="cartClose" aria-label="Fermer">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty" id="cartEmpty">Votre sélection est vide.<br>Ajoutez des produits pour commander en une fois.</p>
+  </div>
+  <div class="cart-footer">
+    <div class="cart-total"><span>Total estimé</span><strong id="cartTotal">0 F CFA</strong></div>
+    <a class="btn btn-primary btn-block" id="cartCheckout" href="#" target="_blank" rel="noopener">Commander via WhatsApp</a>
+  </div>
+</div>
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<!-- Floating WhatsApp button -->
+<a href="https://wa.me/221781537491?text=Bonjour%20Sensoria%20%F0%9F%8C%B8%20je%20souhaite%20avoir%20des%20renseignements%20sur%20votre%20collection." target="_blank" rel="noopener" class="wa-float" aria-label="Contacter sur WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.04 3C9.37 3 3.96 8.4 3.96 15.06c0 2.24.62 4.4 1.79 6.3L3 29l7.82-2.71a12.9 12.9 0 0 0 5.22 1.1h.01c6.66 0 12.07-5.4 12.07-12.06C28.12 8.4 22.71 3 16.04 3Zm0 21.98h-.01a10 10 0 0 1-5.1-1.4l-.37-.22-4.64 1.6 1.55-4.52-.24-.38a9.9 9.9 0 0 1-1.53-5.3c0-5.48 4.46-9.94 9.95-9.94 2.66 0 5.15 1.03 7.03 2.92a9.88 9.88 0 0 1 2.91 7.03c0 5.48-4.46 9.94-9.95 9.94Zm5.46-7.44c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.65-2.05-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.6-.91-2.2-.24-.58-.49-.5-.67-.5-.17 0-.37-.02-.57-.02-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.47 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.2 5.07 4.48.71.31 1.26.49 1.69.63.71.22 1.35.19 1.86.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
