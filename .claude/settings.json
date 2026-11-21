@@ -23,7 +23,11 @@
       "Bash(git push -f:*)",
       "Bash(rm -rf ~:*)",
       "Bash(rm -rf /:*)",
-      "mcp__github__delete_file"
+      "mcp__github__delete_file",
+      "mcp__Gmail__send_message",
+      "mcp__claude_ai_Gmail__send_message",
+      "mcp__Supabase__apply_migration",
+      "mcp__claude_ai_Supabase__apply_migration"
     ]
   }
 }
