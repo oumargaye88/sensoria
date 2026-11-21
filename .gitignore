@@ -1,0 +1,45 @@
+# --- Règles reprise cloud (2026-11-21) ---
+# Secrets et clés : ne jamais commiter
+.env*
+!.env*.example
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+.app_secret
+cle-fichiers.bin
+# Bases de données locales
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+# Données locales
+data.nosync/
+# Dépendances et compilations (régénérables)
+node_modules*
+.next*
+dist*
+build*
+.build/
+Pods/
+.gradle/
+out/
+# Binaires et archives
+*.dmg
+*.exe
+*.apk
+*.aab
+*.ipa
+*.zip
+.DS_Store
+# Exceptions : fichiers source dont le nom commence par build
+!build.gradle
+!build.gradle.kts
